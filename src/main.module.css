@@ -1,0 +1,21 @@
+body {
+  margin: 0px;
+  background-color: #24282f;
+}
+.Main {
+  margin-top: 90px;
+  width: 100%;
+  min-height: 110vh;
+}
+.CardGrid {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  grid-gap: 10px;
+  justify-content: center;
+  padding: 50px;
+}
+.Main > img {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+}
